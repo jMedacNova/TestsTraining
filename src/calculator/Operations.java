@@ -11,9 +11,10 @@ import java.util.ArrayList;
  * @author jubed
  */
 public class Operations {
-    public ArrayList currentOperation = new ArrayList();
-    public ArrayList operationsHistory = new ArrayList();
-    
+
+    ArrayList currentOperation = new ArrayList();
+    ArrayList operationsHistory = new ArrayList();
+
     public void newNumber(int newNumber){
         this.currentOperation.add(newNumber);
     }      
